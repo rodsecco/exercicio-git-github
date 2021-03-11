@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Exercício do Rods</title>
+        <link rel="stylesheet" href="/index.css" />
+    </head>
+    <body onload="welcomeMessage()">
+        <h1>Opa querido!</h1>
+        <div> 1TDSR - Aluno Rodrigo Secco / RM 88850 </div>
+        <form id="question">
+            <p>O que você achou desta página?</p>
+            <textarea id="frm_answer" name="answer" placeholder="Digite aqui suas considerações"></textarea>
+            <input type="submit" id="frm_submit" name="submit" onclick="thanksMessage()"/>
+        </form>
+        <script>
+            function welcomeMessage(){
+                alert("Bem-vindo ao exercício de git do Rods!");
+            }
+            function thanksMessage(){
+                alert("Muito obrigado!")
+            }
+        </script>
+    </body>
+</html>
